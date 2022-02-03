@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+	<script>
+		var f, mes, hora, min, sec;
+		var anio;
+		f = new Date();
+
+		document.write("<h2>");
+		document.write("Hoy es " + f.getDate() + " ");
+		mes = f.getMonth()+1;
+		document.write("del mes " + mes + " ");
+		anio = f.getFullYear();
+		document.write("del " + anio + " ");
+		hora = f.getHours();
+		document.write("siendo las " + hora + " horas ");
+		min = f.getMinutes();
+		document.write(min + " minutos y ");
+		sec = f.getSeconds();
+		document.write(sec + " segundos");
+		document.write("</h2>");
+
+
+
+
+	</script>
+	
+</body>
+</html>
